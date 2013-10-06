@@ -1,0 +1,2 @@
+module SongplaylinksHelper
+end

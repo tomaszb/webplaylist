@@ -1,4 +1,12 @@
 Webplaylist::Application.routes.draw do
+  resources :songplaylinks
+
+  resources :songs
+
+  resources :playlists
+
+  resources :users
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
